@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 65px;
+  line-height: 65px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-logo {
+  float:left;
+}
+
+.header-logo span {
+  color: gold;
+}
+
+.header-logo a{
+  color: dimgrey;
+  font-size: 30px;
+  transition: all 0.5s;
+}
+
+.header-logo a:hover {
+  color: gold;
+}
+
+.header-list{
+  float: right;
+}
+
+.header-list a {
+  float: right;
+  margin-left: 50px;
+  color: dimgrey;
+  transition: all 0.5s;
+  display: block;
+}
+
+.header-list a:hover {
+  color: gold;
+}
+
+.menu-icon {
+  color: dimgrey;
+  float: right;
+  font-size: 30px;
+  display: none;
+}
+
+.member-wrapper {
+  padding-top: 120px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.heading-member {
+  padding-bottom: 45px;
+  letter-spacing: 2px;
+  color:silver;
+  font-weight: normal;
+}
+
+.member {
+  float: left;
+  width: 20%;
+}
+
+.member-icon img {
+  width: 50%;
+  opacity: 40%;
+  transition: all 0.5s;
+}
+
+.member-icon img:hover {
+  opacity: 63%;
+}
+
+.member-icon p {
+  color: dimgrey;
+  font-size: 15px;
+  transition: all 0.5s;
+}
+
+.member-icon p:hover {
+  color: gold;
+  cursor: pointer;
+}
+
+.text-narasi {
+  width: 30%
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 11px;
+  color: silver;
+}
+
+.message-wrapper {
+  margin-bottom: 80px;
+  padding: 18px 0;
+  color: dimgrey;
+  text-align: center;
+  background-color: rgba(192, 192, 192, 0.2);
+}
+
+.heading-message {
+  margin-top: 30px;
+  width: 100%;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.heading-message h3 {
+  color: #2a9df4;
+}
+
+.deskripsi-heading {
+  text-align: justify;
+  margin-bottom: 3px;
+}
+
+.media-sosial a {
+  color: dimgrey;
+  transition: all 0.5s;
+}
+
+.media-sosial a:hover {
+  color: silver;
+}
+
+footer {
+  padding-top: 30px;
+  border-top: 1px solid #eee;
+  text-align: center;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: silver;
+  font-size: 12px;
+}

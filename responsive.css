@@ -1,0 +1,41 @@
+/* Tampilan Tablet */
+@media (max-width: 1000px) {
+  .member {
+    width: 50%;
+  }
+
+  .text-narasi {
+    padding-bottom: 30px;
+  }
+
+  .header-list {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    top: 15px;
+  }
+
+}
+
+
+/* Tampilan Smartphone */
+@media (max-width: 670px) {
+  .member {
+    width: 100%;
+  }
+
+  .header-list {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    top: 15px;
+  }
+
+  .text-narasi {
+    padding-bottom: 30px;
+  }
+}
